@@ -1,0 +1,16 @@
+<% provide(:title, 'Students') %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @student.name %>
+</p>
+<p>
+  <strong>Address:</strong>
+  <%= @student.address %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_student_path(@student) %> |
+  <%= link_to "Destroy", @student, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", students_path %>
+</p>
