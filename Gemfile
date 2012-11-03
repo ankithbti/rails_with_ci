@@ -9,7 +9,8 @@ gem 'sqlite3'
 gem "nifty-generators", :group => :development
 
 gem 'rspec-rails', '2.10.0'
-gem "mocha"
+gem "ci_reporter"
+#gem "mocha"
 
 # Gems used only for assets and not required
 # in production environments by default.
